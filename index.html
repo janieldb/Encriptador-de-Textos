@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!--encabezado-->
+    <header>
+        <a href="#" rel="">
+       <img class="logo_alura" src="imagen/Logo.png" alt="logo Alura">
+        </a>
+    </header>
+    <!--cuerpo-->
+    <main>
+    <section class="encriptador">
+        <textarea class="encriptar" placeholder="Ingrese el texto aqui"></textarea>
+        <div class="encriptador_aviso">
+            <img src="./imagen/exclamation-circle-fill.svg" alt="imagen de exclamacion" class="exclamacion">
+            <p class="texto_exclamacion">Solo letras minúsculas y sin acentos</p>
+        </div>
+        <div class="encriptador_contenedor">
+            <button type="submit" class="boton_encriptar">Encriptar</button>
+            <button type="submit" class="boton_desencriptar">Desencriptar</button>
+        </div>
+    </section>
+
+    <section class="respuesta">
+        <div class="respuesta_contenedor">
+            <img src="./imagen/Muñeco.png" alt="imagen muñeco" class="imagen_muñeco">
+            <p class="texto_uno">Ningun Mensaje Fue Encontrado</p>
+            <p class="texto_dos">Ingresa el texto que desees encriptar o desencriptar.</p>
+        </div>
+        <textarea type="mensaje" class="evaluar" readonly></textarea>
+        <button type="submit" class="boton_copiar">Copiar</button>
+
+    </section>
+    </main>
+
+    <footer class="footer">
+        <p>Encriptador de Texto - Desarrollado por Daniel Buitorn - Oracle / Alura Latam</p>
+        <a href="https://www.linkedin.com/in/daniel-alejandro-buitron-benjumea-91119822b/" rel="">
+            <img src="./imagen/linkedin.png" alt="logo linkedin" class="linkedin">
+        </a>
+        <a href="https://github.com/janieldb" rel="value">
+            <img src="./imagen/github.png" alt="logo github" class="github">
+        </a>
+    </footer> 
+    <script src="funciones.js"></script>
+    
+</body>
+</html>
