@@ -28,14 +28,10 @@
     
 }
 
-::selection{
-    background: var(--azulOscuro);
-    color: var(--blanco);
-}
-
 body{
+    background: url(./imagen/fondo.jpeg);
+    color: var(--blanco);
     height: 100%;
-
 }
 
 img{
